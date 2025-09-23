@@ -1,0 +1,48 @@
+{
+  "genesis": {
+    "l1": {
+      "hash": "0x2c36465610ef6286f1953b8128afbc004dae1c69550d97d16a63fdc916c54121",
+      "number": 716467
+    },
+    "l2": {
+      "hash": "0xc9ece38830173e35fb5a46996b39d1cb53bb4cf12566fcdb0d70d515ddf3ff52",
+      "number": 0
+    },
+    "l2_time": 1758642040,
+    "system_config": {
+      "batcherAddr": "0xa43c0a88f9f318cc6d0e9aee1eb03b777be81e7a",
+      "overhead": "0x0000000000000000000000000000000000000000000000000000000000000000",
+      "scalar": "0x010000000000000000000000000000000000000000000000000c5fc500000558",
+      "gasLimit": 60000000,
+      "eip1559Params": "0x0000000000000000"
+    }
+  },
+  "block_time": 2,
+  "max_sequencer_drift": 600,
+  "seq_window_size": 43200,
+  "channel_timeout": 300,
+  "l1_chain_id": 393530,
+  "l2_chain_id": 20006,
+  "regolith_time": 0,
+  "canyon_time": 0,
+  "delta_time": 0,
+  "ecotone_time": 0,
+  "fjord_time": 0,
+  "granite_time": 0,
+  "holocene_time": 0,
+  "batch_inbox_address": "0x002299eead038a5b51ce6312809cea5dd61548be",
+  "deposit_contract_address": "0xd13b399af0fc128189dd9b10b127e7f77664ac13",
+  "l1_system_config_address": "0xfdf5334e3d26892bb4c1bf84704dcfccd17d8858",
+  "protocol_versions_address": "0x0754c758b4ccc6d397878ea5336c86a20c7c2d2c",
+  "alt_da": {
+    "da_challenge_contract_address": "0x0000000000000000000000000000000000000000",
+    "da_commitment_type": "GenericCommitment",
+    "da_challenge_window": 30,
+    "da_resolve_window": 43200
+  },
+  "chain_op_config": {
+    "eip1559Elasticity": 6,
+    "eip1559Denominator": 50,
+    "eip1559DenominatorCanyon": 250
+  }
+}
