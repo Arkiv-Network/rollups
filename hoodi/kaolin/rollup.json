@@ -1,20 +1,21 @@
 {
   "genesis": {
     "l1": {
-      "hash": "0xd697242a2ba2a7936cd8c103c2e3512faaa4af2a7a22d485afcc77b18c5f9d35",
-      "number": 1530
+      "hash": "0xb4a0d3b4c87660f31d6a02e2be6d4ad4540a22f14e808bc11671ad928208fa48",
+      "number": 46820
     },
     "l2": {
-      "hash": "0xc0ccae88eaad41411ed084e688883599923c8a4b99d680388355fa6bcbdce8cc",
+      "hash": "0x78d58d79d4a5d123529f93fd4d68f5751d7560fc150d1c7ef39e7f48eafa3041",
       "number": 0
     },
-    "l2_time": 1759155672,
+    "l2_time": 1762346864,
     "system_config": {
-      "batcherAddr": "0x268d5f26c5db34a929fb4ae9096eba2c1c05ec0f",
+      "batcherAddr": "0xcc9ad3177ff9c60154af69d11101a57393ccac7d",
       "overhead": "0x0000000000000000000000000000000000000000000000000000000000000000",
       "scalar": "0x010000000000000000000000000000000000000000000000000c5fc500000558",
       "gasLimit": 60000000,
-      "eip1559Params": "0x0000000000000000"
+      "eip1559Params": "0x0000000000000000",
+      "operatorFeeParams": "0x0000000000000000000000000000000000000000000000000000000000000000"
     }
   },
   "block_time": 2,
@@ -30,10 +31,11 @@
   "fjord_time": 0,
   "granite_time": 0,
   "holocene_time": 0,
+  "isthmus_time": 0,
   "batch_inbox_address": "0x00917b20026005fd08c4163de344e14fd83fb740",
-  "deposit_contract_address": "0x39b5a636b8afa8e15d4d7bf3c3cfb66720d7eabb",
-  "l1_system_config_address": "0x8b7a0ad8d73be77f68de5faada2177920bc3b15a",
-  "protocol_versions_address": "0xefbe0c2cb866ca6b89fe1356a72cdf4c6d30cfd5",
+  "deposit_contract_address": "0xf874d628950340b44c3a1a34c85b93fb8268a096",
+  "l1_system_config_address": "0x7ab8f200e72e780802602161961f2099ba039677",
+  "protocol_versions_address": "0x82ad94e3c172082e54ca1c14d01ff13639dd9329",
   "chain_op_config": {
     "eip1559Elasticity": 6,
     "eip1559Denominator": 50,
